@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/see"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/BtnActivityOne"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded_button"
+        android:text="Δρομολογια Λεωφορειων\nBus Timetable   June 25, 2020 - Aug 23, 2020"
+        android:textAllCaps="true"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/BtnActivityOne"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/rounded_button"
+        android:text="Τηλεφωνα ταξι / Taxi phone numbers"
+        android:textStyle="bold"
+        android:textColor="#0B0A0B" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="380dp"
+        android:textColor="#0F0F10"
+        android:background="@drawable/rounded_button"
+        android:textStyle="bold"
+        android:text="Τιμες Λεωφορειων/ Bus Prices" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/rounded_button"
+        android:text="Αποστασεις δρομων στην Σιφνο/\n  Road Distances in sifnos"
+        android:textStyle="bold"
+        android:textColor="#090809" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="560dp"
+        android:textColor="#0F1010"
+        android:background="@drawable/rounded_button"
+        android:textStyle="bold"
+        android:text="Χρησιμα Τηλεφωνα / Useful Phone Numbers" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="\n\n                                                  Sifnos Bus"
+        android:textColor="#090909"
+        android:textStyle="bold" />
+
+</RelativeLayout>

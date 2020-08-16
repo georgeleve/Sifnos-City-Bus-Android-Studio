@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/see"
+    android:gravity="center"
+    tools:context=".RandomActivity">
+
+    <Button
+        android:id="@+id/dial0"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="No1 MITILINAIOS MENELAOS\n+30 2284031216"
+        android:textSize="20sp"
+        android:textColor="#0B0A0B"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="No2 KALOGIROU STAVROS\n+30 6944742652"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="No3 KOMIS STEFANOS +30 6944761210"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="No4 GERONTOPOULOS GIORGOS\n+30 6944444904"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="No5 DIAREMES GIORGOS +30 6944642680, +30 6972359886"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/dial5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="No6 ANAPLIOTIS MICHALIS\n+30 6944696409"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/dial6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="No7 DEPASTA FLORA +30 6932403485"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/dial7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="No8 KARAVIS NIKOS +30 6944936111"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/dial8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="No9 CHRISSOGELOS NIKOS\n+30 6944900972"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/dial9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="No10 KOULOURIS NIKIFOROS\n+30 6973209720"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"/>
+</LinearLayout>

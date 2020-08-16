@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/see"
+    android:gravity="center"
+    tools:context=".ButtonFourActivity">
+
+    <Button
+        android:id="@+id/dial0"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Περιφερειακό Ιατρείο Σίφνου/Health clinic\n+30 2284031315"
+        android:textSize="20sp"
+        android:textColor="#0B0A0B"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="Λιμεναρχειο Σίφνου/Port authority +30 2284031315"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="Aστυνομικό τμήμα/Police Station\n+30 2284031210"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="Οδική βοήθεια-Νίκος Θεολόγος\nRoadside assistance Nikos Theologos\n+30 6945459414  +30 2284033303"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="ΕΛΤΑ +30 2284031329"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="Δήμος Σίφνου/Μunicipality of Sifnos\n +30 2284360300"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:text="ΚΕΠ/ Citizen Service\n +30 2284033880 +30 2284031234"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="Γραφείο Πληροφορειών (ΔΗΚΕΣ)\n+30 2284033661"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="Φαρμακείο Βαβρίτσας Κωνσταντίνος\n+30 2284033541"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/dial9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onDialButton"
+        android:layout_marginTop="20dp"
+        android:text="Φαρμακείο Φωτιάδης Ιωακείμ\n+30 2284033033"
+        android:textColor="#0B0A0B"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+</LinearLayout>
