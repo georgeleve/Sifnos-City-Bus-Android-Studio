@@ -1,3 +1,3 @@
 # SifnosBusNew
 
-Create an app for Sifnos Island Bus and taxi.
+Created an app for Sifnos Island Buses and taxi.
